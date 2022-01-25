@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+:root{
+    --clr-primary-900: rgba(255,255,255, 0.5);
+    --clr-neutral-100:#FFF;
+
+    --ff-primary:'Montserrat', sans-serif;
+    --ff-sz: 5vw;
+    --ff-4:400;
+    --ff-5:500;
+    --ff-7:700;
+    --ff-9:900;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+.bg{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.bg > *:nth-child(1){
+    flex: 1 1 40%;
+    min-width: 50ch;
+}
+
+.bg > *:nth-child(2){
+    flex: 1 1 60%;
+    min-width: 50ch;
+}
+
+.kiri{
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    color: var(--clr-neutral-100);
+}
+
+.kiri .container{
+    background-color: rgba(51, 136, 216, 0.5);
+    height: 100vh;
+    padding: 6em;
+}
+
+.kiri h1{
+    font-weight: var(--ff-7);
+    font-size: var(--ff-sz);
+}
+
+.kiri h4{
+    font-weight: var(--ff-4);
+    font-size: 1.7rem;
+}
+
+.kiri h6{
+    font-size: 1rem;
+    margin-top: 16vw;
+    letter-spacing: 0.2rem;
+    padding: auto;
+}
+
+.kanan .container{
+    padding: 8em 12em 12em 12em;
+}
+
+.kanan h3{
+    font-weight: var(--ff-7);
+    font-size: 3.6rem;
+    letter-spacing: 0.1rem;
+}
+
+.kanan h4{
+    font-weight: var(--ff-4);
+    font-size: 1.4rem;
+    margin: 1em 0 1em 0;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1em;
+}
+
+a{
+    color: rgb(35, 147, 251);
+    text-decoration: none;
+}
+
+.kanan label{
+    font-size: 1.1rem;
+}
+
+img{
+    padding: 0.5em;
+}
+
+.box{
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius:5px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    border: none;
+    text-align: left;
+    width: 44.5em;
+    height: 45px;
+    padding-left: 1em;
+    color: #797979;
+    font-size: 1rem;
+    font-weight: var(--ff-4);
+    background: transparent;
+    outline: 0;
+}
+
+.button2{
+        text-align: center;
+        height: 5em;
+        margin: auto;
+        background-color: rgba(255,255,255, 0.7);
+        border-radius:5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    width: 10em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border-width: 3px;
+}
+
+#signup{
+    background-color: rgb(19, 90, 182);
+}
