@@ -11,10 +11,13 @@
 <body>
     <div class="bg">
         <div class="kiri">
-            <div class="container">
-                <h1>Welcome <br> to AniMov,</h1>
-                <h4>Watch Anywhere and Anytime whenever you want.</h4>
-                <h6>時半の電車に乗れば、何時に秋田につきますか。 ああいう洗練された人々の中で、自分はまったく場違いな気がした。 イベントが成功したのは貴殿のたゆみ無い努力と献身のおかげです。 何時ですか。 ３年前に東京へ来て以来ここに住んでいる。 いい手品師になろうと本気で思っている。 家に帰りましょうか。 彼は、詩人ではなくて小説家だ。 雨が降っている。 いい手品師になろうと本気で思っている。</h6>
+            <div class="blue">
+                <div class="container">
+                    <h1>Welcome <br> to AniMov,</h1>
+                    <br>
+                    <span>Watch Anywhere and Anytime whenever you want.</span>
+                    <div class="details">時半の電車に乗れば、何時に秋田につきますか。 ああいう洗練された人々の中で、自分はまったく場違いな気がした。 イベントが成功したのは貴殿のたゆみ無い努力と献身のおかげです。 何時ですか。 ３年前に東京へ来て以来ここに住んでいる。 いい手品師になろうと本気で思っている。 家に帰りましょうか。 彼は、詩人ではなくて小説家だ。 雨が降っている。 いい手品師になろうと本気で思っている。</div>
+                </div>
             </div>
         </div>
 
@@ -49,20 +52,23 @@
                             $('#password').attr('type', 'password');
                         });
                     </script>
-
-                    <div class="buttonall">
-                        <div class="button1">
-                            <input type="submit" name="signup" class="button" id="signup" value="Get Started">
-                            <script> function confirm() {   alert("Account successfully created!"); } </script>
-                        </div>
-                        <div class="button2">
-                            <a href=""><img src="../img/g.png" alt="google" class="imgoogle"></a>
-                            <a href="https://www.google.com/"><input type="button" name="sign up" class="button" value="Sign up with Google"></a>
-                        </div>
+                    
+                    <div class="button">
+                        <input type="submit" name="signup" class="button1" id="signup" value="Get Started">
+                        <script> function confirm() {   alert("Account successfully created!"); } </script>
                     </div>
+                    <br>
+                    <div class="button buttonBorder">
+                        <a href="https://www.google.com/">
+                            <div class="buttonFlex">
+                                <div><img src="../img/g.png" alt="google" class="imgoogle"></div>
+                                <div><input type="button" name="sign up" class="button2" value="Sign up with Google"></div>
+                            </div>
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
-        </form>
     </div>
 </body>
 </html>

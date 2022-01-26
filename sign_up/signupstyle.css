@@ -10,7 +10,6 @@
     --ff-5:500;
     --ff-7:700;
     --ff-9:900;
-
 }
 
 *,
@@ -24,63 +23,61 @@ h1,
 h2,
 h3,
 h4{
+    font-family: var(--ff-primary);
     margin: 0;
 }
 
 .bg{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.bg > *:nth-child(1){
-    flex: 1 1 40%;
-    min-width: 50ch;
-}
-
-.bg > *:nth-child(2){
-    flex: 1 1 60%;
-    min-width: 50ch;
-}
-
-.kiri{
-    background-image: url(../img/bg.jpeg);
-    background-repeat: no-repeat;
-    
     height: 100vh;
+    display: flex;
+}
+
+/* ini sebelah kiriiiiiii*/
+.kiri{
+    flex: 40%;
     color: var(--clr-neutral-100);
+    background-image: url(../img/bg.jpeg);
+}
+
+.kiri .blue{
+    background-color: rgba(51, 136, 216, 0.5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kiri .container{
-    background-color: rgba(51, 136, 216, 0.5);
-    height: 100vh;
-    padding: 6em;
+    padding: 0% 7% 0% 7%;
 }
 
 .kiri h1{
-    font-weight: var(--ff-7);
+    font-weight: 700;
     font-size: var(--ff-sz);
 }
 
-.kiri h4{
-    font-weight: var(--ff-4);
-    font-size: 1.7rem;
+.kiri span{
+    font-weight: 400;
+    font-size: 2vw;
 }
 
-.kiri h6{
-    font-size: 1rem;
-    margin-top: 16vw;
-    letter-spacing: 0.2rem;
-    padding: auto;
+.kiri .details{
+    font-weight: 400;
+    font-size: 1.25vw;
+    padding-top: 25%;
 }
 
-.kanan .container{
-    padding: 8em 12em 12em 12em;
+/* ini sebelah kanannnnnnn */
+.kanan{
+    flex: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kanan h3{
     font-weight: var(--ff-7);
-    font-size: 3.6rem;
+    font-size: 4vw;
     letter-spacing: 0.1rem;
 }
 
@@ -97,27 +94,24 @@ a{
     text-decoration: none;
 }
 
+/* ini inputan guyssss */
 .kanan label{
     font-size: 1.1rem;
 }
 
-img{
-    padding: 0.5em;
-}
-
 .box{
-    width: 100%;
     border: 1px solid rgb(221, 221, 221);
     border-radius:5px;
     height: 48px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .input{
     border: none;
     text-align: left;
-    width: 44.5em;
+    width: 40vw;
     height: 45px;
     padding-left: 1em;
     color: #797979;
@@ -127,31 +121,60 @@ img{
     outline: 0;
 }
 
-.button2{
-        text-align: center;
-        height: 5em;
-        margin: auto;
-        background-color: rgba(255,255,255, 0.7);
-        border-radius:5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+.box img{
+    padding-right: 0.5em;
 }
 
-.button {
-    color: white;
-    background-color: transparent;
-    border-color: white;
-    border-radius: 5px;
-    box-shadow: none;
-    width: 10em;
+/* ini tombol-tombolan guyssss */
+.button{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 45px;
+    margin: 0 15%;
     text-decoration: none;
-    display: inline-block;
     font-size: 1rem;
     cursor: pointer;
-    border-width: 3px;
+}
+
+.button .button1{
+    color: white;
+    border: solid transparent 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 45px;
+    width: 100%;
+}
+
+.buttonBorder{
+    border: solid 2px;
+    border-color: rgb(128, 128, 128);
+}
+
+.button2{
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    height: 45px;
+}
+
+.buttonFlex img{
+    width: 30px;
+    margin-left: 30px;
+}
+
+.buttonFlex{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #signup{
