@@ -1,3 +1,5 @@
+<?php include 'header/navbar.php'; ?>
+<style><?php include 'header/stylenav.css'; ?></style>
 
 <link rel="stylesheet" href="styleprofile.css">
 
