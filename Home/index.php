@@ -1,4 +1,4 @@
-<?php include 'nav.php'; ?>
+<?php include 'header/navnhead.php'; ?>
 
 <link rel="stylesheet" href="style.css">
 
@@ -22,4 +22,4 @@
         </div>
     </div>
 
-<?php include 'footer.php'; ?>
+<?php include 'header/footer.php'; ?>

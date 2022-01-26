@@ -37,55 +37,55 @@ p, span{
 
 .footer{
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     background-color: #191919;
 }
 
-.row > div {
+.footer-row > div {
     margin: 0.6% 5% 2% 5%;
     color: white;
 }
 
-.row{
+.footer-row{
     display: flex;
     justify-content: center;
 }
 
-.logo{
+.footer-logo{
     margin-left: 20%;
     flex: 1 13%;
 }
 
-.logo img {
+.footer-logo img {
     width: 85%;
     height: auto;
 }
 
-.address{
+.footer-address{
     flex: 2 25%;
 }
 
-.line{
+.footer-line{
     height: 2px;
     margin: 13% 0 6% 0;
     background-color: rgb(133, 133, 133);
 }
 
-.about{
+.footer-about{
     flex: 3 20%;
 }
 
-.sosmed{
+.footer-sosmed{
     padding-top: 1.8%;
     flex: 4 42%;
 }
 
-.sosmed a{
+.footer-sosmed a{
     margin: 5%;
 }
 
-.sosmed i {
+.footer-sosmed i {
     font-size: 2.5vw;
 }
