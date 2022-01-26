@@ -22,7 +22,6 @@
 }
 
 body, h3, h5{
-text-align: center;
 color: white;
 font-style: 'Montserrat', sans-serif;
 margin: 0;
@@ -45,7 +44,7 @@ letter-spacing: 0.1vw;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 10% 20% 0 20%;
+    padding: 10% 35% 0 35%;
 }
 
 /* items inside */
@@ -64,5 +63,13 @@ letter-spacing: 0.1vw;
 
 .accstats{
     background-color: #363636;
-    width: 40%;
+    height: 7em;
+    align-items: center;
+    display: flex;
+    padding: auto;
+}
+
+.accstats a{
+    margin: 0;
+    padding: 0;
 }

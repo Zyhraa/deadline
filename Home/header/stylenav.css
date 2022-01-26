@@ -74,6 +74,12 @@ a{
 	color: white;
 }
 
+.nav-logo img {
+    text-align: center;
+    width: 60%;
+    height: auto;
+}
+
 .nav-header .nav-navmenu{
 	padding: 0 15px;
 }

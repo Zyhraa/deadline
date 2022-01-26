@@ -16,7 +16,7 @@
 			<div class="nav-headerkotak">
 				<nav class="nav-navmenu">
 					<div class="nav-logo">
-						<a href="index.php">AniMov</a>
+						<a href="../index.php"><img src="../../img/logo.png" alt=""></a>
 					</div>
 
 					<ul class="nav-menu">

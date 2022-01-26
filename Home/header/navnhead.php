@@ -16,14 +16,14 @@
 			<div class="nav-headerkotak">
 				<nav class="nav-navmenu">
 					<div class="nav-logo">
-						<a href="index.php">AniMov</a>
+						<a href="index.php"><img src="../img/logo.png" alt=""></a>
 					</div>
 
 					<ul class="nav-menu">
 						<li class="nav-item"><a href="#">ANIME</a></li>
 						<li class="nav-item"><a href="#">MERCHANDISE</a></li>
-						<li class="nav-item"><a href="../profile/profile.php">PROFILE</a></li>
-						<li class="nav-item"><a href="../about/about.php">ABOUT</a></li>
+						<li class="nav-item"><a href="profile/profile.php">PROFILE</a></li>
+						<li class="nav-item"><a href="about/about.php">ABOUT</a></li>
 					</ul>
 					
 					<div class="nav-srch">

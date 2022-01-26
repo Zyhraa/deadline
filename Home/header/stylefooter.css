@@ -26,18 +26,9 @@ body, a{
     color: white;
 }
 
-h6{
-    font-size: 0.8vw;
-}
-
-p, span{
-    font-size: 0.6vw;
-    letter-spacing: 0.1vw;
-}
-
 .footer{
     width: 100%;
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     background-color: #191919;
@@ -51,6 +42,15 @@ p, span{
 .footer-row{
     display: flex;
     justify-content: center;
+}
+
+.footer-row h6{
+    font-size: 0.8vw;
+}
+
+.footer-row p, span{
+    font-size: 0.6vw;
+    letter-spacing: 0.1vw;
 }
 
 .footer-logo{

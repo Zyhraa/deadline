@@ -6,6 +6,7 @@
             <div class="footer-logoo">
                 <h6>Powered by:</h6>
                 <img src="../../img/logo.png" alt="">
+                <img src="../img/logo.png" alt="">
             </div>
 
             <div class="footer-address">

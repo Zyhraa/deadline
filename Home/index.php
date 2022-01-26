@@ -24,4 +24,7 @@
     </div>
 
 <?php include 'header/footer.php'; ?>
-<style><?php include 'header/stylefooter.css'; ?></style>
+<style><?php include 'header/stylefooter.css'; ?>
+.footer{
+    position: relative;
+}</style>
