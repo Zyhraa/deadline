@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 26, 2022 at 12:01 PM
+-- Generation Time: Jan 26, 2022 at 03:07 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.30
 
@@ -20,6 +20,32 @@ SET time_zone = "+00:00";
 --
 -- Database: `data`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `account_stats`
+--
+
+CREATE TABLE `account_stats` (
+  `id_acc` int(11) NOT NULL,
+  `name_acc` int(11) NOT NULL,
+  `valid_for` varchar(50) NOT NULL,
+  `price_acc` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `account_transaction`
+--
+
+CREATE TABLE `account_transaction` (
+  `id_acctran` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL,
+  `name_user` varchar(200) NOT NULL,
+  `id_acc` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -76,7 +102,7 @@ CREATE TABLE `merchandise` (
   `id_merchandise` int(11) NOT NULL,
   `name_merch` varchar(100) NOT NULL,
   `details_merch` text NOT NULL,
-  `price` varchar(300) NOT NULL,
+  `price_merch` varchar(300) NOT NULL,
   `img` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -84,7 +110,7 @@ CREATE TABLE `merchandise` (
 -- Dumping data for table `merchandise`
 --
 
-INSERT INTO `merchandise` (`id_merchandise`, `name_merch`, `details_merch`, `price`, `img`) VALUES
+INSERT INTO `merchandise` (`id_merchandise`, `name_merch`, `details_merch`, `price_merch`, `img`) VALUES
 (10, 'Darling In The FranXX - Zero Two Figure (2nd Bunny Ver)', 'Zero Two is back in a new bunny outfit, this time with bare legs! From the popular anime series \"DARLING in the FRANXX\" comes a new 1/4th scale bunny costume figure of Zero Two, also known as Code:002. This time, Zero Two has been brought into figure form in a white bunny suit and with tightsless bare legs. The figure features the same impressive 1/4th scale size as the original while bringing out a brand new charm. Be sure to add her to your collection!  Size approx: 17” inches tall  Material: PVC Manufacturer: FREEing U.S. Release Date: May 2022', '460.000', 'ultra-tokyo-connection-pvc-scale-figures-darling-in-the-franxx-zero-two-figure-2nd-bunny-ver-28778191978540_2000x2000.jpg'),
 (11, 'Sword Art Online - Kirito 1/7 Scale Figure', 'Sword Art Online - Kirito 1/7 Scale figure will be released by Alter!  Size approx: 10” inches tall  Material: PVC, ABS Manufacturer: Alter U.S. Release Date: June 2022', '302.000', 'ultra-tokyo-connection-pvc-scale-figures-sword-art-online-kirito-1-7-scale-figure-28066660941868_2000x2000.jpg'),
 (13, 'Demon Slayer - Became Smaller Nezuko Kamado Figure (Shake The Sword Burn Your Heart)', 'Bandai Spirits Ichibansho is proud to announce their newest release Became Smaller Nezuko Kamado (Shake the Sword Burn Your Heart)! This statue is expertly crafted and meticulously sculpted to look like Nezuko Kamado from Demon Slayer: Kimetsu no Yaiba.  Standing at approximately 2.6\" tall, Nezuko is seen in her popular pose.  Be sure to collect this and enhance your display with other incredible Ichibansho figures!  Size approx: 2.6 inches tall  Material: PVC, ABS Manufacturer: Bandai U.S. Release Date: June 2022', '650.000', 'bluefin-pvc-scale-figures-demon-slayer-became-smaller-nezuko-kamado-figure-shake-the-sword-burn-your-heart-29557960376364_2000x2000.jpg'),
@@ -99,6 +125,20 @@ INSERT INTO `merchandise` (`id_merchandise`, `name_merch`, `details_merch`, `pri
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `merch_transaction`
+--
+
+CREATE TABLE `merch_transaction` (
+  `id_merchtran` int(11) NOT NULL,
+  `id_user` int(100) NOT NULL,
+  `id_merchandise` int(100) NOT NULL,
+  `name_merch` varchar(100) NOT NULL,
+  `price` int(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `user`
 --
 
@@ -108,14 +148,14 @@ CREATE TABLE `user` (
   `img_user` varchar(500) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
-  `premium` int(5) NOT NULL
+  `id_acc` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `name`, `img_user`, `email`, `password`, `premium`) VALUES
+INSERT INTO `user` (`id`, `name`, `img_user`, `email`, `password`, `id_acc`) VALUES
 (30, 'babar', '', 'babar@gmail.com', '56f46611dfa80d0eead602cbb3f6dcee', 0),
 (31, 'a', '', 'a@gmail.com', '0cc175b9c0f1b6a831c399e269772661', 0),
 (33, 'nur', '', 'nur@gmail.com', 'b55178b011bfb206965f2638d0f87047', 0),
@@ -127,6 +167,18 @@ INSERT INTO `user` (`id`, `name`, `img_user`, `email`, `password`, `premium`) VA
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `account_stats`
+--
+ALTER TABLE `account_stats`
+  ADD PRIMARY KEY (`id_acc`);
+
+--
+-- Indexes for table `account_transaction`
+--
+ALTER TABLE `account_transaction`
+  ADD PRIMARY KEY (`id_acctran`);
 
 --
 -- Indexes for table `anime`
@@ -147,6 +199,12 @@ ALTER TABLE `merchandise`
   ADD PRIMARY KEY (`id_merchandise`);
 
 --
+-- Indexes for table `merch_transaction`
+--
+ALTER TABLE `merch_transaction`
+  ADD PRIMARY KEY (`id_merchtran`);
+
+--
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -155,6 +213,18 @@ ALTER TABLE `user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `account_stats`
+--
+ALTER TABLE `account_stats`
+  MODIFY `id_acc` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `account_transaction`
+--
+ALTER TABLE `account_transaction`
+  MODIFY `id_acctran` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `anime`
@@ -173,6 +243,12 @@ ALTER TABLE `header`
 --
 ALTER TABLE `merchandise`
   MODIFY `id_merchandise` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
+--
+-- AUTO_INCREMENT for table `merch_transaction`
+--
+ALTER TABLE `merch_transaction`
+  MODIFY `id_merchtran` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `user`
