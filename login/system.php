@@ -14,6 +14,7 @@ include '../connection.php';
     if($cek > 0){
         $_SESSION['user_name'] = $name;
         $_SESSION['email'] = $email;
+        $_SESSION['status'] = "login";
         header("location:../Home/index.php");
     }
     else{
