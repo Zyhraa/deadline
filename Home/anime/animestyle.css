@@ -29,32 +29,34 @@ h2{
     background-color: black;
 }
 
+.kotakKU{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 a{
     text-decoration: none;
     color: white;
 }
 
 .items{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(28, 2, 255);
     width: max-content;
-    margin: 5em;
+    margin: 20px;
     text-align: center;
 }
 
 .items a{
     flex: 1;
     display: flex;
-    width: 20em;
+    width: 10em;
     justify-content: center;
 }
 
 .item{
     background-color: blueviolet;
-    padding: 30px;
+    padding: 0px;
+    width: 10em;
     margin: auto;
 }
 
