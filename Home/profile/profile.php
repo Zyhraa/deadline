@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>a
 
 <?php include '../header/footer.php'; ?>
 <style><?php include '../header/stylefooter.css'; ?>
