@@ -22,8 +22,8 @@
 					<ul class="nav-menu">
 						<li class="nav-item"><a href="#">ANIME</a></li>
 						<li class="nav-item"><a href="#">MERCHANDISE</a></li>
-						<li class="nav-item"><a href="profile/profile.php">PROFILE</a></li>
-						<li class="nav-item"><a href="about/about.php">ABOUT</a></li>
+						<li class="nav-item"><a href="../profile/profile.php">PROFILE</a></li>
+						<li class="nav-item"><a href="../about/about.php">ABOUT</a></li>
 					</ul>
 					
 					<div class="nav-srch">
@@ -32,3 +32,6 @@
 						<!-- beb gatau beb sumpah pusing cm mau kananin search kalo gabisa yaudahlah anj gausah asu cape aku elah -->
 					
 				</nav>
+			</div>
+		</div>
+	</header>

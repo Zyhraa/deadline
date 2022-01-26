@@ -1,15 +1,7 @@
-<?php include 'header/navbar.php'; ?>
-<style><?php include 'header/stylenav.css'; ?></style>
+<?php include '../header/navbar.php'; ?>
+<style><?php include '../header/stylenav.css'; ?></style>
 
 <link rel="stylesheet" href="styleprofile.css">
-
-<?php
-include '../../connection.php';
-    session_start();
-    if ($_SESSION['status']!="login"){
-        header("location:../../login/index.php?msgs=logout");
-    }
-    ?>
 
 <div class="bgimg">
     <div class="black">
@@ -19,9 +11,10 @@ include '../../connection.php';
             </div>
 
             <div class="namenumber">
-                <h3><?php echo $_SESSION['name_user'];?></h3>
-                <h5>3521515453</h5>
+                <h3>User</h3>
+                <h5>+62 822-7619-8724</h5>
             </div>
+            
             <div class="accstats">
                 <a href="">
                     <div class="status">
@@ -51,4 +44,5 @@ include '../../connection.php';
 <style><?php include '../header/stylefooter.css'; ?>
 .footer{
     position: absolute;
-}</style>
+}
+</style>

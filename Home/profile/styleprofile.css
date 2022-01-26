@@ -21,7 +21,7 @@
     box-sizing: border-box;
 }
 
-body, h4{
+body, h3, h5{
 text-align: center;
 color: white;
 font-style: 'Montserrat', sans-serif;
@@ -45,23 +45,24 @@ letter-spacing: 0.1vw;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 5% 20% 0 20%;
+    padding: 10% 20% 0 20%;
 }
 
-.imglogo{
-    margin: 15% 0 4% 0;
-    flex: 1 20%;
-    height: auto;
+/* items inside */
+.imgprofile{
+
 }
 
-.imglogo img{
-    width: 35%;
+.namenumber h3{
+    font-size: 3vw;
+    font-weight: var(--ff-7);
 }
 
-.pabout{
-    flex: 2 ;
-}
-
-.pabout h4{
+.namenumber h5{
     font-size: 1vw;
+}
+
+.accstats{
+    background-color: #363636;
+    width: 40%;
 }
