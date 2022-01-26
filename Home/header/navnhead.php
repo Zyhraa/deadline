@@ -11,22 +11,22 @@
 <body>
 
 	<!-- header start -->
-	<header class="header">
-		<div class="container">
-			<div class="headerkotak">
-				<nav class="navmenu">
-					<div class="logo">
+	<header class="nav-header">
+		<div class="nav-container">
+			<div class="nav-headerkotak">
+				<nav class="nav-navmenu">
+					<div class="nav-logo">
 						<a href="index.php">AniMov</a>
 					</div>
 
-					<ul class="menu">
-						<li class="item"><a href="#">ANIME</a></li>
-						<li class="item"><a href="#">MERCHANDISE</a></li>
-						<li class="item"><a href="#">PROFILE</a></li>
-                        <li class="item"><a href="about/about.php">ABOUT</a></li>
+					<ul class="nav-menu">
+						<li class="nav-item"><a href="#">ANIME</a></li>
+						<li class="nav-item"><a href="#">MERCHANDISE</a></li>
+						<li class="nav-item"><a href="#">PROFILE</a></li>
+                        <li class="nav-item"><a href="about/about.php">ABOUT</a></li>
 					</ul>
 					
-					<div class="srch">
+					<div class="nav-srch">
 						<input type="text" placeholder="Search...">
 					</div>
 						<!-- beb gatau beb sumpah pusing cm mau kananin search kalo gabisa yaudahlah anj gausah asu cape aku elah -->
@@ -37,32 +37,32 @@
 		</div>
 	</header>
 
-	<div class="alltop">
-        <div class="cover">
-            <div class="inside">
-                <div class="sort">
+	<div class="nav-alltop">
+        <div class="nav-cover">
+            <div class="nav-inside">
+                <div class="nav-sort">
                     <p>MOVIE</p>
-                    <div class="line"></div>
+                    <div class="nav-line"></div>
                 </div>
                 <h1>Title Title</h1>
-                <p class="dtls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellendus.</p>
+                <p class="nav-dtls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellendus.</p>
                 
-                <div class="sortbtn">
-                    <div class="watch">
+                <div class="nav-sortbtn">
+                    <div class="nav-watch">
                         <i class="fas fa-play">
                         <input type="button" class="btn" value="WATCH NOW"></i>
                     </div>
-                    <div class="later">
+                    <div class="nav-later">
                         <i class="fas fa-plus">
                         <input type="button" class="btn" value="WATCH LATER"></i>
                     </div>
                 </div>
 
-                <div class="next">
-                    <div class="left">
+                <div class="nav-next">
+                    <div class="nav-left">
                         <i class="fas fa-chevron-left"></i>
                     </div>
-                    <div class="right">
+                    <div class="nav-right">
                         <i class="fas fa-chevron-right"></i>
                     </div>
                 </div>
