@@ -23,6 +23,7 @@
 						<li class="item"><a href="#">ANIME</a></li>
 						<li class="item"><a href="#">MERCHANDISE</a></li>
 						<li class="item"><a href="#">PROFILE</a></li>
+                        <li class="item"><a href="#">ABOUT</a></li>
 					</ul>
 					
 					<div class="srch">
