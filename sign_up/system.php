@@ -6,11 +6,11 @@ include '../connection.php';
     $email    =$_POST['email'];
     $pass     =md5($_POST['password']);
 
-    $query = "INSERT INTO user (name, email, password) VALUES('$name', '$email', '$pass')";
+    $query = "INSERT INTO user (name_user, email, password) VALUES('$name', '$email', '$pass')";
     $result = mysqli_query($con, $query);
 
     if(!$result){
-        die (mysqli_error($conn)." - ".mysqli_error($conn));
+        die (mysqli_error($con)." - ".mysqli_error($con));
     }else {
         header("location:../login/index.php");
     }

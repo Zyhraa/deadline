@@ -27,7 +27,7 @@
                         $data = mysqli_query($con, "SELECT * FROM user WHERE email='$email' LIMIT 1");
                         while (mysqli_fetch_array($data)) { 
                         ?>
-                    <form action="fp2change.php" method="post"></form>
+                    <form action="fp2change.php" method="post">
                         <h3>Reset Password</h3>
                         <span>change your password right now</span>
                         
