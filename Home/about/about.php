@@ -1,5 +1,7 @@
-<?php include '../navbar.php'; ?>
+<?php include '../header/navbar.php'; ?>
+<style><?php include '../header/stylenav.css'; ?></style>
 
+<link rel="stylesheet" href="style.css">
 
 <div class="bgimg">
     <div class="black">
@@ -12,5 +14,5 @@
     </div>
 </div>
 
-<?php include '../footer.php'; ?>
-
+<?php include '../header/footer.php'; ?>
+<style><?php include '../header/stylefooter.css'; ?></style>
