@@ -102,6 +102,8 @@ a{
 .nav-navmenu {
 	display: flex;
     width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 .nav-logo {
@@ -111,6 +113,7 @@ a{
 
 .nav-menu{
 	flex: 1 80%;
+
 }
 
 .nav-menu ul li{

@@ -44,7 +44,7 @@ letter-spacing: 0.1vw;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 10% 35% 0 35%;
+    padding: 8% 35% 5% 35%;
 }
 
 /* items inside */
@@ -63,13 +63,35 @@ letter-spacing: 0.1vw;
 
 .accstats{
     background-color: #363636;
-    height: 7em;
+    height: 5em;
     align-items: center;
     display: flex;
     padding: auto;
+    margin-bottom: 1.8em;
 }
 
 .accstats a{
     margin: 0;
     padding: 0;
+}
+
+.otherbuttondiv{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.transaction{
+    background-color: #363636;
+    margin-bottom: 1.8em;
+    height: 3em;
+
+}
+
+
+.logoutbutton{
+    background-color: #363636;
+    margin-bottom: 1.8em;
+    height: 3em;
 }

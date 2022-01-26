@@ -3,7 +3,7 @@
 
 <div class="footer">
         <div class="footer-row">
-            <div class="footer-logoo">
+            <div class="footer-logo">
                 <h6>Powered by:</h6>
                 <img src="../../img/logo.png" alt="">
                 <img src="../img/logo.png" alt="">
