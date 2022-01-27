@@ -32,6 +32,7 @@ letter-spacing: 0.1vw;
 
 .bgimg{
     background-image: url("../../img/bg.jpeg");
+    margin: 0;
 }
 
 .black{
@@ -44,11 +45,13 @@ letter-spacing: 0.1vw;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding: 8% 35% 5% 35%;
+    padding: 6% 35% 0 35%;
 }
 
 /* items inside */
-a
+.namenumber{
+    margin: 0.5vw 0 1vw 0;
+}
 
 .namenumber h3{
     font-size: 3vw;
@@ -59,37 +62,23 @@ a
     font-size: 1vw;
 }
 
-.accstats{
+.status{
     background-color: #363636;
     height: 5em;
-    align-items: center;
-    display: flex;
-    padding: auto;
+    text-align: center;
+    padding: 3%;
     margin-bottom: 1.8em;
-}
-
-.accstats a{
-    margin: 0;
-    padding: 0;
 }
 
 .otherbuttondiv{
     display: flex;
     flex-direction: column;
-    
-    
 }
 
-.transaction{
+.otherbuttondiv > a{
     background-color: #363636;
-    margin-bottom: 1.8em;
-    height: 3em;
-
+    margin-bottom: 0.6em;
+    height: 4em;
+    padding: 3%;
 }
 
-
-.logoutbutton{
-    background-color: #363636;
-    margin-bottom: 1.8em;
-    height: 3em;
-}

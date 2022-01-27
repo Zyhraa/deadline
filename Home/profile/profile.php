@@ -16,7 +16,7 @@
             </div>
             
             <div class="accstats">
-                <a href="">
+                <a href="premium.php">
                     <div class="status">
                         <h3>Premium Account</h3>
                         <h5>Valid for 6 Months</h5>
