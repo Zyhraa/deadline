@@ -20,8 +20,8 @@
 					</div>
 
 					<ul class="nav-menu">
-						<li class="nav-item"><a href="#">ANIME</a></li>
-						<li class="nav-item"><a href="#">MERCHANDISE</a></li>
+						<li class="nav-item"><a href="anime/anime.php">ANIME</a></li>
+						<li class="nav-item"><a href="merchandise/merchandise.php">MERCHANDISE</a></li>
 						<li class="nav-item"><a href="profile/profile.php">PROFILE</a></li>
 						<li class="nav-item"><a href="about/about.php">ABOUT</a></li>
 					</ul>
