@@ -186,11 +186,10 @@ a{
     margin-bottom: 1vw;
 }
 
-
 .kotakAnime{
     width: 85vw;
-    height: 400px;
-    overflow-x: hidden;
+    height: 350px;
+    overflow-x:scroll;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +198,6 @@ a{
 .apakek {
     display: flex;
     width: 100%;
-    padding-left: 5vw;
     height: max-content;
 }
 .alb {

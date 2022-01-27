@@ -10,7 +10,6 @@
                 <h4>Anime List</h4>
             </div>
 
-
             <div class="isinyaok">
                 <div class="apakek">
                     <?php 
