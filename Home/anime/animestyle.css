@@ -58,3 +58,16 @@ h4{
     background-color: #2c2c2c;
     padding: 5em;
 }
+
+.apakek{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inikotak{
+    margin: 1em;
+    width: 200px;
+
+}

@@ -28,7 +28,36 @@
                     <div class="apakek">
                         <?php
                         include '../connection.php';
-                            $sql = "SELECT * FROM anime";
+                            $sql = "SELECT * FROM anime ORDER BY RAND()";
+                            $res = mysqli_query($con,  $sql);
+                            if (mysqli_num_rows($res) > 0) {
+                                while ($images = mysqli_fetch_assoc($res)) {  ?>
+                            <div class="inikotak">
+                                <a href="twitter.com">
+                                    <div class="alb">
+                                        <img src="animecover/<?=$images['img']?>">
+                                        <h4><?=$images['title']?></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php } }?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="anime-cattwo">
+            <div class="nostalgic-anime">
+                <div>Nostalgic Anime</div>
+                <div>See All</div>
+            </div>
+
+            <div class="animelist-popular">
+                <div class="kotakAnime">
+                    <div class="apakek">
+                        <?php
+                        include '../connection.php';
+                            $sql = "SELECT * FROM anime ORDER BY RAND()";
                             $res = mysqli_query($con,  $sql);
                             if (mysqli_num_rows($res) > 0) {
                                 while ($images = mysqli_fetch_assoc($res)) {  ?>
@@ -46,69 +75,61 @@
             </div>
         </div>
         
-        <div class="anime-cattwo">
-            <div class="nostalgic-anime">
-                <div>Nostalgic Anime</div>
-                <div>See All</div>
-            </div>
-            <div class="animelist-popular">
-                <div class="contohkotak">
-                    <img src="animecover/103920.jpg" alt="">
-                </div>
-                <!--<div class="kotakKu">
-                    <?php
-                    //include '../connection.php';
-                    
-                    //$result = mysqli_query($con, "SELECT * FROM anime");
-                    //while ($row = mysqli_fetch_array($result)) { ?>
-                    
-                    <link rel="stylesheet" type="text/css" href="animestyle.css">
-                        <div class="items">
-                            <a href="google.com">
-                                <div class="item">
-                                    <img src="animecover/<?//=$row['img']?>">
-                                    <h1><?//=$row['title']?></h1>
-                                </div>
-                            </a>
-                        </div>
-                    <?php //} ?>
-                </div>-->
-            </div>
-        </div>
-
-        <div class="anime-catthree">
+        <div class="anime-cattheree">
             <div class="series-anime">
                 <div>Series Anime</div>
                 <div>See All</div>
             </div>
+
             <div class="animelist-popular">
-                <div class="contohkotak">
-                    <img src="animecover/103920.jpg" alt="">
+                <div class="kotakAnime">
+                    <div class="apakek">
+                        <?php
+                        include '../connection.php';
+                            $sql = "SELECT * FROM anime ORDER BY RAND()";
+                            $res = mysqli_query($con,  $sql);
+                            if (mysqli_num_rows($res) > 0) {
+                                while ($images = mysqli_fetch_assoc($res)) {  ?>
+                            <div class="inikotak">
+                                <a href="twitter.com">
+                                    <div class="alb">
+                                        <img src="animecover/<?=$images['img']?>">
+                                        <h4><?=$images['title']?></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php } }?>
+                    </div>
                 </div>
-                <!--<div class="kotakKu">
-                    <?php
-                    //include '../connection.php';
-                    
-                    //$result = mysqli_query($con, "SELECT * FROM anime");
-                    //while ($row = mysqli_fetch_array($result)) { ?>
-                    
-                    <link rel="stylesheet" type="text/css" href="animestyle.css">
-                        <div class="items">
-                            <a href="google.com">
-                                <div class="item">
-                                    <img src="animecover/<?//=$row['img']?>">
-                                    <h1><?//=$row['title']?></h1>
-                                </div>
-                            </a>
-                        </div>
-                    <?php //} ?>
-                </div>-->
             </div>
         </div>
 
         <div class="anime-catfour">
             <div class="features-anime">
-                <div>AniMov Features</div>
+                <div>Animov Features</div>
+                <div>See All</div>
+            </div>
+
+            <div class="animelist-popular">
+                <div class="kotakAnime">
+                    <div class="apakek">
+                        <?php
+                        include '../connection.php';
+                            $sql = "SELECT * FROM anime ORDER BY RAND()";
+                            $res = mysqli_query($con,  $sql);
+                            if (mysqli_num_rows($res) > 0) {
+                                while ($images = mysqli_fetch_assoc($res)) {  ?>
+                            <div class="inikotak">
+                                <a href="twitter.com">
+                                    <div class="alb">
+                                        <img src="animecover/<?=$images['img']?>">
+                                        <h4><?=$images['title']?></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php } }?>
+                    </div>
+                </div>
             </div>
             <div class="featuredkotak">
                 <div class="HD">
