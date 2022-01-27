@@ -24,10 +24,12 @@
                         <div class="inikotak">
                             <a href="twitter.com">
                                 <div class="alb">
-                                    <img src="../catalog/<?=$merchan['img']?>">
-                                    <h4><?=$merchan['name_merch']?></h4>
-									<h5><?=$merchan['price_merch']?></h5>
+                                    <div>
+                                        <img src="../catalog/<?=$merchan['img']?>">
+                                    </div>
                                 </div>
+                                <h4><?=$merchan['name_merch']?></h4>
+								<h5><?=$merchan['price_merch']?></h5>
                             </a>
                         </div>
                     <?php } }?>

@@ -196,7 +196,7 @@ h1{
 
 .nav-sortbtn{
     display: flex;
-    max-width: 25rem;
+    max-width: 30rem;
     justify-content: space-evenly;
     margin: 1rem;
 }
