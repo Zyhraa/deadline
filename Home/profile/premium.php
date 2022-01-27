@@ -7,7 +7,6 @@
 <div class="bg">
     <div class="black">
         <div class="content">
-            <form action="checkout.php" method="POST">
             <div class="title">
                 <h1>Premium Account</h1>
             </div>
@@ -61,7 +60,6 @@
                     </a>
                 </div>
             </div>
-        </form>
         </div>
     </div>
 </div>      
