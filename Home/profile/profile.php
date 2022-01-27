@@ -30,7 +30,7 @@
                         <h3>See Latest Transaction</h3>
                     </div>
                 </a>
-                <a href="">
+                <a href="logout.php">
                     <div class="logoutbutton">
                         <h3>Logout</h3>
                     </div>
