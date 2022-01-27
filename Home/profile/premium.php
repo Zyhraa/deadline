@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="premiumstyle.css">
 <script src="https://kit.fontawesome.com/5681f6e595.js" crossorigin="anonymous"></script>
 
+
 <div class="bg">
     <div class="black">
         <div class="content">
@@ -19,7 +20,7 @@
                         <h4>Rp.350.000</h4>   
                     </div>
                     <a href="">
-                        <button>
+                        <button onclick="return confirm('Wait for Email confirmation')">
                             <div class="beliacc">
                             <input type="hidden" name="harga" value="35000"><h2>Purchase</h2></input>
                             <i class="fas fa-chevron-right"></i>
@@ -35,7 +36,7 @@
                         <h4>Rp.310.000</h4>   
                     </div>
                     <a href="">
-                        <button>
+                        <button onclick="return confirm('Wait for Email confirmation')">
                             <div class="beliacc">
                             <input type="hidden" name="harga" value="31000"><h2>Purchase</h2></input>
                             <i class="fas fa-chevron-right"></i>
@@ -51,7 +52,7 @@
                         <h4>Rp.30.000</h4>   
                     </div>
                     <a href="">
-                        <button>
+                        <button onclick="return confirm('Wait for Email confirmation')"></a>
                             <div class="beliacc">
                             <input type="hidden" name="harga" value="30000"><h2>Purchase</h2></input>
                             <i class="fas fa-chevron-right"></i>
