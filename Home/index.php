@@ -24,26 +24,24 @@
             </div>
 
             <div class="animelist-popular">
-                <div class="contohkotak">
-                    <img src="animecover/103920.jpg" alt="">
-                </div>
-                                <div class="apakek">
-                    <?php 
-                    include '../connection.php';
-                        $sql = "SELECT * FROM anime";
-                        $res = mysqli_query($con,  $sql);
-
-                        if (mysqli_num_rows($res) > 0) {
-                            while ($images = mysqli_fetch_assoc($res)) {  ?>
-                        <div class="inikotak">
-                            <a href="twitter.com">
-                                <div class="alb">
-                                    <img src="animecover/<?=$images['img']?>">
-                                    <h4><?=$images['title']?></h4>
-                                </div>
-                            </a>
-                        </div>
-                    <?php } }?>
+                <div class="kotakAnime">
+                    <div class="apakek">
+                        <?php
+                        include '../connection.php';
+                            $sql = "SELECT * FROM anime";
+                            $res = mysqli_query($con,  $sql);
+                            if (mysqli_num_rows($res) > 0) {
+                                while ($images = mysqli_fetch_assoc($res)) {  ?>
+                            <div class="inikotak">
+                                <a href="twitter.com">
+                                    <div class="alb">
+                                        <img src="animecover/<?=$images['img']?>">
+                                        <h4><?=$images['title']?></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php } }?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +78,7 @@
 
         <div class="anime-catthree">
             <div class="series-anime">
-                <div>Nostalgic Anime</div>
+                <div>Series Anime</div>
                 <div>See All</div>
             </div>
             <div class="animelist-popular">

@@ -26,6 +26,8 @@ p,
 h1,
 h2{
     margin: 0;
+    line-height: 1.5;
+    letter-spacing: 0.1vw;
 }
 
 a{
@@ -77,7 +79,6 @@ a{
 .popular-anime{
     display: flex;
     justify-content: space-between;
-    padding: 0.7em;
     font-size: 1.2vw;
 }
 
@@ -186,32 +187,39 @@ a{
 }
 
 
+.kotakAnime{
+    width: 85vw;
+    height: 400px;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .apakek {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
+    width: 100%;
+    padding-left: 5vw;
+    height: max-content;
 }
 .alb {
-    background-color: aqua;
     width: 200px;
-    height: 200px;
-    padding: 5px;
+    height: max-content;
+    padding: 0 5px 0 5px;
 }
 .alb img {
     width: 10em;
     height: 100%;
 }
+
 a {
     text-align: center;
-    margin: 1em;
+    margin: 0 1em 0 1em;
     text-decoration: none;
     color: black;
 }
 
 .inikotak{
-    margin: 1em;
-    background-color: blueviolet;
+    margin: 0 1em 0 1em;
+    width: max-content;
 }
