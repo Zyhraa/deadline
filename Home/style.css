@@ -33,8 +33,6 @@ a{
     color: white;
 }
 
-
-
 /* start of bottom section */
 .allbottom{
     padding: 0 6rem;
@@ -76,7 +74,68 @@ a{
     background-color: rgb(206, 206, 206);
 }
 
-.more-one{
+.popular-anime{
+    display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding: 0.7em;
+    font-size: 1.2vw;
 }
+
+.nostalgic-anime{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    font-size: 1.2vw;
+}
+
+.contohkotak{
+    background-color: gold;
+    height: 100%;
+}
+
+/* anime list popular */
+.kotakKU{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.items{
+    background-color: rgb(28, 2, 255);
+    width: max-content;
+    margin: 20px;
+    text-align: center;
+}
+
+.items a{
+    flex: 1;
+    display: flex;
+    width: 10em;
+    justify-content: center;
+}
+
+.item{
+    background-color: blueviolet;
+    padding: 0px;
+    width: 10em;
+    margin: auto;
+}
+
+.item img{
+    display: block;
+    width: 10em;
+    margin: auto;
+    display: block;
+}
+
+.item h4{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+/* end anime list */

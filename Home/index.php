@@ -17,10 +17,68 @@
             <div class="linebtm"></div>
         </div>
 
-        <div class="more-one">
-            <div>Popular Anime</div>
-            <div>See All</div>
+        <div class="anime-catone">
+            <div class="popular-anime">
+                <div>Popular Anime</div>
+                <div>See All</div>
+            </div>
+
+            <div class="animelist-popular">
+                <div class="contohkotak">
+                    <img src="animecover/103920.jpg" alt="">
+                </div>
+                <!--<div class="kotakKu">
+                    <?php
+                    //include '../connection.php';
+                    
+                    //$result = mysqli_query($con, "SELECT * FROM anime");
+                    //while ($row = mysqli_fetch_array($result)) { ?>
+                    
+                    <link rel="stylesheet" type="text/css" href="animestyle.css">
+                        <div class="items">
+                            <a href="google.com">
+                                <div class="item">
+                                    <img src="animecover/<?//=$row['img']?>">
+                                    <h1><?//=$row['title']?></h1>
+                                </div>
+                            </a>
+                        </div>
+                    <?php //} ?>
+                </div>-->
+            </div>
         </div>
+        
+        <div class="anime-cattwo">
+            <div class="nostalgic-anime">
+                <div>Nostalgic Anime</div>
+                <div>See All</div>
+            </div>
+            <div class="animelist-popular">
+                <div class="contohkotak">
+                    <img src="animecover/103920.jpg" alt="">
+                </div>
+                <!--<div class="kotakKu">
+                    <?php
+                    //include '../connection.php';
+                    
+                    //$result = mysqli_query($con, "SELECT * FROM anime");
+                    //while ($row = mysqli_fetch_array($result)) { ?>
+                    
+                    <link rel="stylesheet" type="text/css" href="animestyle.css">
+                        <div class="items">
+                            <a href="google.com">
+                                <div class="item">
+                                    <img src="animecover/<?//=$row['img']?>">
+                                    <h1><?//=$row['title']?></h1>
+                                </div>
+                            </a>
+                        </div>
+                    <?php //} ?>
+                </div>-->
+            </div>
+        </div>
+
+        
     </div>
 
 <?php include 'header/footer.php'; ?>
