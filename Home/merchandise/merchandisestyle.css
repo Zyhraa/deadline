@@ -22,12 +22,15 @@
 }
 
 body,
-p,
-h4{
+p{
     margin: 0;
     line-height: 1.5;
     letter-spacing: 0.1vw;
-    
+}
+
+h4,
+h5{
+    font-size: 15px;
 }
 
 .bg{
@@ -71,6 +74,13 @@ h4{
     width: 200px;
 }
 
+.alb{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
 .alb img{
-    width: 100px;
+    width: 200px;
 }
