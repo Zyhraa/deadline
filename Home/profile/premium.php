@@ -19,10 +19,12 @@
                         <h4>Rp.350.000</h4>   
                     </div>
                     <a href="">
-                        <div class="beliacc">
-                        <input type="hidden" name="harga" value="350000"><h2>Purchase</h2>
-                        <i class="fas fa-chevron-right"></i>
-                        </div>
+                        <button>
+                            <div class="beliacc">
+                            <input type="hidden" name="harga" value="35000"><h2>Purchase</h2></input>
+                            <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </button>
                     </a>
                 </div>
 
@@ -33,10 +35,12 @@
                         <h4>Rp.310.000</h4>   
                     </div>
                     <a href="">
-                        <div class="beliacc">
-                        <input type="hidden" name="harga" value="310000"><h2>Purchase</h2>
-                        <i class="fas fa-chevron-right"></i>
-                        </div>
+                        <button>
+                            <div class="beliacc">
+                            <input type="hidden" name="harga" value="31000"><h2>Purchase</h2></input>
+                            <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </button>
                     </a>
                 </div>
 
@@ -48,10 +52,11 @@
                     </div>
                     <a href="">
                         <button>
-                        <div class="beliacc">
-                        <input type="hidden" name="harga" value="30000"><h2>Purchase</h2></input>
-                        <i class="fas fa-chevron-right"></i>
-                        </div></button>
+                            <div class="beliacc">
+                            <input type="hidden" name="harga" value="30000"><h2>Purchase</h2></input>
+                            <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </button>
                     </a>
                 </div>
             </div>
