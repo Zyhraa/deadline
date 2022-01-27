@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 26, 2022 at 03:07 PM
+-- Generation Time: Jan 27, 2022 at 12:02 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.30
 
@@ -144,7 +144,7 @@ CREATE TABLE `merch_transaction` (
 
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
+  `name_user` varchar(100) NOT NULL,
   `img_user` varchar(500) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
@@ -155,14 +155,9 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `name`, `img_user`, `email`, `password`, `id_acc`) VALUES
-(30, 'babar', '', 'babar@gmail.com', '56f46611dfa80d0eead602cbb3f6dcee', 0),
-(31, 'a', '', 'a@gmail.com', '0cc175b9c0f1b6a831c399e269772661', 0),
-(33, 'nur', '', 'nur@gmail.com', 'b55178b011bfb206965f2638d0f87047', 0),
-(34, '', '', 'a@gmail.com', '0cc175b9c0f1b6a831c399e269772661', 0),
-(35, 'a', '', 'a@gmail.com', '0cc175b9c0f1b6a831c399e269772661', 0),
-(36, 'admin', '', 'a@gmail.com', '0192023a7bbd73250516f069df18b500', 0),
-(37, 'babar', '', 'bb@gmail.com', '54cca3833e27a412a22b9da000b7da1f', 0);
+INSERT INTO `user` (`id`, `name_user`, `img_user`, `email`, `password`, `id_acc`) VALUES
+(40, 'a', '', 'a@gmail.com', '0cc175b9c0f1b6a831c399e269772661', 0),
+(41, 'ab', '', 'ab@gmail.com', '187ef4436122d1cc2f40dc2b92f0eba0', 0);
 
 --
 -- Indexes for dumped tables
@@ -230,7 +225,7 @@ ALTER TABLE `account_transaction`
 -- AUTO_INCREMENT for table `anime`
 --
 ALTER TABLE `anime`
-  MODIFY `id_anime` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
+  MODIFY `id_anime` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `header`
@@ -254,7 +249,7 @@ ALTER TABLE `merch_transaction`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
