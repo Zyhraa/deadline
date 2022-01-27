@@ -109,28 +109,6 @@
                 <div>Animov Features</div>
                 <div>See All</div>
             </div>
-
-            <div class="animelist-popular">
-                <div class="kotakAnime">
-                    <div class="apakek">
-                        <?php
-                        include '../connection.php';
-                            $sql = "SELECT * FROM anime ORDER BY RAND()";
-                            $res = mysqli_query($con,  $sql);
-                            if (mysqli_num_rows($res) > 0) {
-                                while ($images = mysqli_fetch_assoc($res)) {  ?>
-                            <div class="inikotak">
-                                <a href="twitter.com">
-                                    <div class="alb">
-                                        <img src="animecover/<?=$images['img']?>">
-                                        <h4><?=$images['title']?></h4>
-                                    </div>
-                                </a>
-                            </div>
-                        <?php } }?>
-                    </div>
-                </div>
-            </div>
             <div class="featuredkotak">
                 <div class="HD">
                     <div class="imgttl">
