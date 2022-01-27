@@ -13,6 +13,7 @@
             </div>
 
 			<div class="isinyaok">
+                <form action="checkout.php" method="POST">
                 <div class="apakek">
                     <?php 
                     include '../../connection.php';
@@ -22,7 +23,8 @@
                         if (mysqli_num_rows($res) > 0) {
                             while ($merchan = mysqli_fetch_assoc($res)) {  ?>
                         <div class="inikotak">
-                            <a href="twitter.com">
+                            <a href="checkout.php">
+                                <button type="submit" name="pilihan">
                                 <div class="alb">
                                     <div>
                                         <img src="../catalog/<?=$merchan['img']?>">
@@ -34,6 +36,7 @@
                         </div>
                     <?php } }?>
                 </div>
+                </form>
             </div>
 		</div>
 	</div>

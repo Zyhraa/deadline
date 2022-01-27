@@ -6,6 +6,7 @@
 <div class="bg">
     <div class="black">
         <div class="content">
+            <form action="checkout.php" method="POST">
             <div class="title">
                 <h1>Premium Account</h1>
             </div>
@@ -19,7 +20,7 @@
                     </div>
                     <a href="">
                         <div class="beliacc">
-                        <h2>Purchase</h2>
+                        <input type="hidden" name="harga" value="350000"><h2>Purchase</h2>
                         <i class="fas fa-chevron-right"></i>
                         </div>
                     </a>
@@ -29,11 +30,11 @@
                     <h1>Animov Standart</h1>
                     <div class="detailhrg">
                         <h2>6/Months</h2>
-                        <h4>Rp.3100.000</h4>   
+                        <h4>Rp.310.000</h4>   
                     </div>
                     <a href="">
                         <div class="beliacc">
-                        <h2>Purchase</h2>
+                        <input type="hidden" name="harga" value="310000"><h2>Purchase</h2>
                         <i class="fas fa-chevron-right"></i>
                         </div>
                     </a>
@@ -46,13 +47,15 @@
                         <h4>Rp.30.000</h4>   
                     </div>
                     <a href="">
+                        <button>
                         <div class="beliacc">
-                        <h2>Purchase</h2>
+                        <input type="hidden" name="harga" value="30000"><h2>Purchase</h2></input>
                         <i class="fas fa-chevron-right"></i>
-                        </div>
+                        </div></button>
                     </a>
                 </div>
             </div>
+        </form>
         </div>
     </div>
 </div>      

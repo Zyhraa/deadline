@@ -6,7 +6,16 @@
 <div class="bg">
     <div class="black">
         <div class="content">
+            <div class="logonya">
+                <img src="../../img/logo.png" alt="">
+                <h4>Check OUT</h4>
+            </div>
 
+            <div class="isiokeh">
+                <?php $harga = $_POST['harga'];
+
+                echo $harga; ?>
+            </div>
 
 
 
