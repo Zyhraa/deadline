@@ -88,6 +88,13 @@ a{
     font-size: 1.2vw;
 }
 
+.series-anime{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    font-size: 1.2vw;
+}
+
 .contohkotak{
     background-color: gold;
     height: 100%;
