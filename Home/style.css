@@ -95,6 +95,13 @@ a{
     font-size: 1.2vw;
 }
 
+.features-anime{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    font-size: 1.2vw;
+}
+
 .contohkotak{
     background-color: gold;
     height: 100%;
@@ -146,3 +153,65 @@ a{
 }
 
 /* end anime list */
+
+/*featured*/
+.featuredkotak{
+    padding: 0.7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredkotak > div{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    margin: 2em;
+}
+
+.featuredkotak img, h2, p{
+    padding: 1em 0 0.2em 1em;
+}
+
+.featuredkotak img{
+    margin-left: 1em;
+}
+
+.imgttl{
+    display: flex;
+}
+
+.featuredkotak p {
+    width: 80%;
+    padding-left: 5.2vw;
+    margin-bottom: 1vw;
+}
+
+
+
+.apakek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.alb {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.alb img {
+    width: 10em;
+    height: 100%;
+}
+a {
+    text-align: center;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.inikotak{
+    margin: 1em;
+    background-color: blueviolet;
+}
