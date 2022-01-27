@@ -44,8 +44,8 @@
                     <p>MOVIE</p>
                     <div class="nav-line"></div>
                 </div>
-                <h1>Title Title</h1>
-                <p class="nav-dtls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellendus.</p>
+                <h1>Boruto: Naruto Next Generations</h1>
+                <p class="nav-dtls">In the future, a teenaged Boruto Uzumaki, the son of Naruto Uzumaki, is fighting a man named Kawaki on the Hokage Stone Faces in a devastated Hidden Leaf Village. Kawaki declares the age of shinobi to be over and that he will send Boruto "where he sent the Seventh Hokage." Boruto declares that he is still a shinobi, despite Kawaki's words, and continues to fight.</p>
                 
                 <div class="nav-sortbtn">
                     <div class="nav-watch">
